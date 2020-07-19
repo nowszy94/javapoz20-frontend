@@ -1,0 +1,46 @@
+<html>
+<head>
+    <style>
+        .base {
+            border: 1px solid black;
+            padding: 20px;
+            flex: 1;
+        }
+        .blue {
+            background-color: lightblue;
+        }
+        .green {
+            background-color: lightgreen;
+        }
+        .yellow {
+            background-color: lightyellow;
+        }
+        .red {
+            background-color: indianred;
+        }
+        .container {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<div class="base blue">
+    Nawigacja
+</div>
+<div class="container">
+    <div class="base green" style="flex: 1">Left</div>
+    <div class="base yellow" style="flex: 3">Right</div>
+</div>
+<div class="container">
+    <div class="container" style="flex: 1; flex-direction: column">
+        <div class="base red">pion-lewy #1</div>
+        <div class="base green">pion-lewy #2</div>
+    </div>
+    <div class="container" style="flex: 2; flex-direction: column">
+        <div class="base yellow">pion-prawy #1</div>
+        <div class="base green">pion-prawy #2</div>
+        <div class="base red">pion-prawy #3</div>
+    </div>
+</div>
+</body>
+</html>

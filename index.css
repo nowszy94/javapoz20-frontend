@@ -1,0 +1,22 @@
+h1, h3 {
+    font-style: italic;
+}
+p {
+    text-align: end;
+}
+#description {
+    text-align: center;
+}
+.male-names-list {
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+    border: 1px do
+}
+
+.female-names-list {
+    font-weight: bold;
+    font-style: italic;
+    color: lightblue;
+    margin: 30px;
+}
